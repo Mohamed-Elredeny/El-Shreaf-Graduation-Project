@@ -1,0 +1,306 @@
+<html>
+    <head>
+        <title> سيارتي اونلاين</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body> 
+        <raght>
+        <header>
+            <div class="container">
+                <div class="logo"> 
+                       	 <img src="img/logo.jpg">
+        <nav class="menu">
+            
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                
+                <li><a href="#">سيارات جديدة </a></li>
+                
+                <li><a href="#">سيارات مستعملة </a></li>
+                
+                <li><a href="#">تواصل معنا </a></li>
+                
+                <li><a href="#">روابط تهمك </a></li>
+                <li class="hidden-md hidden-lg">
+                        <a href="tel:19095" title=""><i class="fa fa-phone"></i><span>19710</span></a>
+                    </li>
+                    <li class="hidden-md hidden-lg">
+                        <a href="https://www.elmasria-auto.com/en" class="language">English</a>
+                    </li>
+                
+                
+              
+            
+            </ul>
+            <div class="header_wrap">
+                
+                
+                
+                                <div class="login_btn hidden-xs hidden-sm"> <a href="#loginform" class="btn btn-xs uppercase" data-toggle="modal" data-dismiss="modal"> <i class="fa fa-sign-in"></i> تسجيل دخول </a> </div>
+                
+            </div>
+            
+            <from class="search-form">
+                <input type="text" placeholder="search"><button>بحث </button>
+                
+            
+            
+            </from>
+            
+            
+        </nav>
+    
+    
+                </div>
+            </div>
+              <section id="filter_form2">
+        <div class="container">
+            <div class="main_bg white-text">
+                <h3>إبحث عن سيارة</h3>
+                <div class="row">
+                    <form action="https://www.elmasria-auto.com/search" method="get" id="search_car">
+                        <div class="form-group col-sm-12">
+                            <label class="form-label">نطاق السعر (EGP)</label>
+                            
+                            <input id="price_range" name="price" type="text" class="span2" value="" data-slider-min="50" data-slider-max="14550000" data-slider-step="5" data-slider-value="[0,14550000]"/>
+                        </div>
+
+                        <div class="form-group col-md-3 col-sm-6">
+                            <div class="select">
+                                <select class="form-control" name="brand_slug" title="كل الماركات">
+                                    <option value="">كل الماركات</option>
+                                                                            <option value="Alfa_Romeo" data-id="63">الفا روميو</option>
+                                                                            <option value="audi" data-id="48">أودى</option>
+                                                                            <option value="BMW" data-id="50">بى ام دابليو</option>
+                                                                            <option value="Brilliance" data-id="17">بريلیانس</option>
+                                                                            <option value="BYD" data-id="18">بي واي دي</option>
+                                                                            <option value="changan" data-id="45">شنجان</option>
+                                                                            <option value="Chery" data-id="19">شيري</option>
+                                                                            <option value="Chevrolet" data-id="14">شيفروليه</option>
+                                                                            <option value="Citroen" data-id="20">سيتروين</option>
+                                                                            <option value="FAW" data-id="62">فاو</option>
+                                                                            <option value="fiat" data-id="25">فيات</option>
+                                                                            <option value="Ford" data-id="21">فورد</option>
+                                                                            <option value="geely" data-id="40">جيلي</option>
+                                                                            <option value="Glory" data-id="55">جلوري</option>
+                                                                            <option value="Haima" data-id="35">هايما</option>
+                                                                            <option value="honda" data-id="42">هوندا</option>
+                                                                            <option value="Hyundai" data-id="7">هيونداي</option>
+                                                                            <option value="JAC" data-id="22">جاك</option>
+                                                                            <option value="jaguar" data-id="47">جاجوار</option>
+                                                                            <option value="Jeep" data-id="23">جيب</option>
+                                                                            <option value="Karry" data-id="57">كارى</option>
+                                                                            <option value="KIA" data-id="2">كيا</option>
+                                                                            <option value="Lada" data-id="24">لادا</option>
+                                                                            <option value="Land_Rover" data-id="49">لاند روفر</option>
+                                                                            <option value="mazda" data-id="26">مازدا</option>
+                                                                            <option value="Mercedes" data-id="52">مرسيدس</option>
+                                                                            <option value="brand_mg" data-id="39">أم جي</option>
+                                                                            <option value="mini" data-id="41">ميني</option>
+                                                                            <option value="Mitsubishi" data-id="27">متسوبيشي</option>
+                                                                            <option value="Nissan" data-id="12">نيسان</option>
+                                                                            <option value="Opel" data-id="15">أوبل</option>
+                                                                            <option value="Puegeot" data-id="28">بيجو</option>
+                                                                            <option value="porsche" data-id="64">بورش</option>
+                                                                            <option value="proton" data-id="44">بروتون</option>
+                                                                            <option value="Renault" data-id="6">رينو</option>
+                                                                            <option value="Seat" data-id="29">سيات</option>
+                                                                            <option value="SENOVA" data-id="56">سينوفا</option>
+                                                                            <option value="skoda" data-id="43">سكودا</option>
+                                                                            <option value="Ssangyong" data-id="30">سانغ يونغ</option>
+                                                                            <option value="Subaru" data-id="31">سوبارو</option>
+                                                                            <option value="Suzuki" data-id="32">سوزوكي</option>
+                                                                            <option value="Toyota" data-id="33">تويوتا</option>
+                                                                            <option value="Volkswagen" data-id="34">فولكس فاجن</option>
+                                                                            <option value="volvo" data-id="46">فولفو</option>
+                                                                    </select>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-3 col-sm-6">
+                            <div class="select">
+                                <select class="form-control" name="brand_model_slug" title="كل الموديلات">
+                                    <option value="">كل الموديلات</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-3 col-sm-6">
+                            <div class="select">
+                                <select class="form-control" name="type" title="جديد - مستعمل" required>
+                                    <option value="new" selected>جديد</option>
+                                    <option value="used">مستعمل</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-3 col-sm-6">
+                            <button type="submit" class="btn btn-block"><i class="fa fa-search" aria-hidden="true"></i> بحث </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+            <section class="fun-facts-section">
+    <div class="container div_zindex">
+        <div class="row">
+            
+            <div class="col-lg-3 col-xs-6 col-sm-3">
+                <div class="fun-facts-m">
+                    <a href="https://www.elmasria-auto.com/brands?type=new" class="cell">
+                        <h2><img src="https://www.elmasria-auto.com/assets/images/fun-facts-icons/New.png" alt="" /></h2>
+                        <p>جميع الماركات الحديثة</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-sm-3">
+                <div class="fun-facts-m">
+                    <a href="https://www.elmasria-auto.com/brands?type=used" class="cell">
+                        <h2><img src="https://www.elmasria-auto.com/assets/images/fun-facts-icons/Used.png" alt="" /></h2>
+                        <p>تغيير سيارتك أصبح الأسهل</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-sm-3">
+                <div class="fun-facts-m">
+                    <a href="https://www.elmasria-auto.com/branches" class="cell">
+                        <h2><img class="fun-facts-icon" src="https://www.elmasria-auto.com/assets/images/fun-facts-icons/Branches.png" alt="" /></h2>
+                        <p>فروعنا الأقرب إليك</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="dark-overlay"></div>
+</section>
+
+
+    
+    <section class="section-padding gray-bg">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>سيارات <span>مميزة</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="trending_slider">
+                                                <a href="https://www.elmasria-auto.com/car/CKDHIGHLINEAT15/new" class="trending-car-m">
+                            <div class="trending-car-img"> <img src="https://www.elmasria-auto.com/files/61882_1564914327.png" alt="Image" class="img-responsive" /> </div>
+                            <div class="trending-hover">
+                                <h4>شيري, CKD HIGHLINE A/T 1.5</h4>
+                            </div>
+                        </a>
+                                                <a href="https://www.elmasria-auto.com/car/c5AT16AircrossShine/new" class="trending-car-m">
+                            <div class="trending-car-img"> <img src="https://www.elmasria-auto.com/files/43243_1564071012.png" alt="Image" class="img-responsive" /> </div>
+                            <div class="trending-hover">
+                                <h4>سيتروين, A/T 1.6 Aircross Shine</h4>
+                            </div>
+                        </a>
+                                                <a href="https://www.elmasria-auto.com/car/AT_Top_Line_16/new" class="trending-car-m">
+                            <div class="trending-car-img"> <img src="https://www.elmasria-auto.com/files/60677_1561468090.png" alt="Image" class="img-responsive" /> </div>
+                            <div class="trending-hover">
+                                <h4>كيا, A/T Top Line Plus 1.6</h4>
+                            </div>
+                        </a>
+                                                <a href="https://www.elmasria-auto.com/car/AGTLines164/new" class="trending-car-m">
+                            <div class="trending-car-img"> <img src="https://www.elmasria-auto.com/files/34438_1554909780.png" alt="Image" class="img-responsive" /> </div>
+                            <div class="trending-hover">
+                                <h4>بيجو, A/T GT Line Plus 1.6</h4>
+                            </div>
+                        </a>
+                                                <a href="https://www.elmasria-auto.com/car/EXAT14begas/new" class="trending-car-m">
+                            <div class="trending-car-img"> <img src="https://www.elmasria-auto.com/files/93634_1546421017.png" alt="Image" class="img-responsive" /> </div>
+                            <div class="trending-hover">
+                                <h4>كيا, EX A/T 1.4</h4>
+                            </div>
+                        </a>
+                                                <a href="https://www.elmasria-auto.com/car/kia_sorento_Exclusive/new" class="trending-car-m">
+                            <div class="trending-car-img"> <img src="https://www.elmasria-auto.com/files/47373_1545219199.png" alt="Image" class="img-responsive" /> </div>
+                            <div class="trending-hover">
+                                <h4>كيا, Exclusive 3500 cc</h4>
+                            </div>
+                        </a>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            <footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-6">
+                    <h6>الأكثر مبيعا</h6>
+                    <ul>
+                        <li><a href="https://www.elmasria-auto.com/Renault">رينو</a></li>
+                        <li><a href="https://www.elmasria-auto.com/Hyundai">هوينداي</a></li>
+                        <li><a href="https://www.elmasria-auto.com/KIA">كيا</a></li>
+                        <li><a href="https://www.elmasria-auto.com/Chevorlet"> شيفروليه</a></li>
+                        <li><a href="https://www.elmasria-auto.com/Opel">أوبل</a></li>
+                        <li><a href="https://www.elmasria-auto.com/brands">كل الماركات</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <h6>قم بتحميل التطبيق الخاص بنا</h6>
+                    <ul class="ourApp">
+                        <li><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1264717157&mt=8" class="android"><img src="assets/images/apple.png" alt="apple"></a></li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.almasrya.almasrya" class="ios"><img src="assets/images/android.png" alt="google"></a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="https://www.elmasria-auto.com/p/cranes-numbers">أرقام الرافعات</a></li>
+                    </ul>
+                </div>
+
+               
+
+
+                <div class="col-md-3 col-sm-6">
+                    <h6>شارك اﻷخبار</h6>
+                    <div class="newsletter-form">
+                        <form id="insertToMailList">
+                            <div class="form-group">
+                                <input type="email" class="form-control newsletter-input" required placeholder="أدخل عنوان البريد الإلكتروني" />
+                                <div class="text-danger"></div>
+                            </div>
+                            <button type="submit" class="btn btn-block">مشاركة <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                        </form>
+                        <p class="subscribed-text">*نرسل أفضل العروض و آخر أخبار السيارات لمستخدمينا المشتركين أسبوعيا.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4 col-md-push-8 text-right">
+                    <div class="footer_widget">
+                        <p>تواصل معنا :</p>
+                        <ul>
+                            <li><a target="_blank" href="https://www.facebook.com/ElMasria.Auto/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/ElmasriaAuto/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a target="_blank" href="https://twitter.com/elmasriaauto"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+
+                            
+                            <li><a target="_blank" href="https://www.youtube.com/channel/UCtvnOPqdII5N1gjI568w3kA"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+            
+    </header>
+     </raght>
+    </body>
+
+
+</html>
