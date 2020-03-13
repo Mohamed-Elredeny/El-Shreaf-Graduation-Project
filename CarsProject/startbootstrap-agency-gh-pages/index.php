@@ -1,7 +1,7 @@
 
 <?php include('phpFunctions/functions.php'); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
 
@@ -55,23 +55,23 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a class="nav-link js-scroll-trigger" href="#services">الخدمات</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">New Cars</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">السيارات الحديثه</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#staff">Used Cars</a>
+            <a class="nav-link js-scroll-trigger" href="#staff">السيارات المستعمله</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#login">login</a>
+            <a class="nav-link js-scroll-trigger" href="#login">تسجيل دخول</a>
           </li>
             
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#register">Register</a>
+            <a class="nav-link js-scroll-trigger" href="#register">مستخدم جديد</a>
           </li>
              <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact us</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">تواصل معنا</a>
           </li>
   
          
@@ -84,9 +84,9 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Website!</div>
-        <div class="intro-heading " style="font-size: 70px;">Find your dream car</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Explore  Now</a>
+        <div class="intro-lead-in" >اهلا بك في عالمنا </div>
+        <div class="intro-heading " style="font-size: 70px;">احصل علي سياره احلامك </div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">استكشف الان</a>
       </div>
     </div>
   </header>
@@ -96,7 +96,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase" style="margin-top:20px;padding-bottom: 70px;">Services</h2>
+          <h2 class="section-heading text-uppercase" style="margin-top:20px;padding-bottom: 70px;">خدماتنا</h2>
          <br>
          <br>
         </div>
@@ -107,8 +107,8 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Buy new cars or used cars</h4>
-          <p class="text-muted">enroll now to learn what you want with qualified  .</p>
+          <h4 class="service-heading">شراء عربيه جديده او مستعمله</h4>
+          <p class="text-muted">من خلال تصفح موقعنا يمكنك شراء سياره جديده او مستعمله</p>
 
          
         </div>
@@ -117,16 +117,16 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Online reservation</h4>
-          <p class="text-muted">enroll now to learn what you want with qualified  .</p>
+          <h4 class="service-heading">حجز سياره اون لاين</h4>
+          <p class="text-muted">احجز سيارتك قبل غيرك من  بضغطه </p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">rent  cars </h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <h4 class="service-heading">تأجير سياره</h4>
+          <p class="text-muted">يمكنك تاجير سيارتك الان وكذلك الحصول علي سياره للايجار</p>
         </div>
       </div>
     </div>
@@ -139,7 +139,7 @@
     <div class="container">
       <div class="row">
          <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase" style="margin-top:-20px;">New Cars</h2>
+          <h2 class="section-heading text-uppercase" style="margin-top:-20px;">السيارات الحديثه</h2>
           <br><br>
         </div>
        
@@ -159,7 +159,7 @@
         </div>
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase" style="margin-top:100px;">Our Gallary</h2>
+          <h2 class="section-heading text-uppercase" style="margin-top:100px;">معرض السيارات الحديثه</h2>
           <br><br>
         </div>
       </div>
@@ -192,7 +192,7 @@
     <div class="container">
       <div class="row">
          <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase" style="margin-top:-20px;">Used Cars</h2>
+          <h2 class="section-heading text-uppercase" style="margin-top:-20px;">السيارات المستعمله</h2>
           <br><br>
         </div>
          <?php  echo " <ul class='bxslider'> "; ?>
@@ -210,7 +210,7 @@
         </div>
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase" style="margin-top:100px;">Our Gallary</h2>
+          <h2 class="section-heading text-uppercase" style="margin-top:100px;">معرض السارات المستعمله</h2>
           <br><br>
         </div>
       </div>
@@ -237,18 +237,20 @@
 
   <!-- Login -->
   <section id="login" >
-    <h1 style="margin-top: -100px;margin-bottom: 50px;margin-left: 400px">Sign in</h1>
+    <div>
+    <h1 style="margin-top: -100px;margin-bottom: 50px;margin-left: 600px" dir="rtl">تسجيل دخول</h1>
     <form action="index.php" method="POST" style="width: 600px;position: relative;left: 400px">
     <div class="form-group" >
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      <label for="email" style="margin-left: 480px;">البريد الالكتروني</label>
+      <input type="email" class="form-control" id="email" placeholder="قم بادخال بريدك الالكتروني" name="email" dir="rtl">
     </div>
     <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      <label for="pwd" style="margin-left: 510px;">كلمه المرور</label>
+      <input type="password" class="form-control" id="pwd" placeholder="قم بادخال كلمه المرور" name="pswd" dir="rtl">
     </div>
   
-    <button type="submit" class="btn btn-primary" name="login">Submit</button>
+    <button type="submit" class="btn btn-primary" name="login" style="margin-left: 240px;">تسجيل دخول</button>
+
   </form>
 
   </section>
@@ -256,26 +258,26 @@
   <!-- register -->
   <section id="register">
     <form action="index.php" method="POST" style="width: 600px;position: relative;left: 400px">
-      <h1 style="margin-top: -100px;margin-bottom: 50px;">Sign up</h1>
+      <h1 style="margin-top: -100px;margin-bottom: 50px;margin-left: 150px;">تسجيل مستخدم جديد</h1>
     <div class="form-group">
-      <label for="name">name:</label>
-      <input type="text" class="form-control" id="txt" placeholder="Enter name" name="uname1">
+      <label for="name" style="margin-left: 500px;">اسم المستخدم</label>
+      <input type="text" class="form-control" id="txt" placeholder="ادخل اسم المتخدم" name="uname1" dir="rtl">
     </div>
       <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email" name="uemail1">
+      <label for="email" style="margin-left: 490px;">البريد الالكتروني</label>
+      <input type="email" class="form-control" id="email" placeholder="قم بادخال بريدك الالكتروني" name="uemail1" dir="rtl">
     </div>
     <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="upass1">
+      <label for="pwd" style="margin-left: 520px;">كلمه المرور</label>
+      <input type="password" class="form-control" id="pwd" placeholder="ادخل كلمه السر" name="upass1" dir="rtl">
     </div>
   
     <div class="form-group">
-      <label for="phone">Phone Number:</label>
-      <input  class="form-control" id="email" placeholder="Enter phone" name="uphone1">
+      <label for="phone" style="margin-left: 520px;">رقم الموبايل</label>
+      <input  class="form-control" id="email"  name="uphone1" dir="rtl">
     </div>
     
-    <button type="submit" class="btn btn-primary" name="register">Signup</button>
+    <button type="submit" class="btn btn-primary" name="register" style="margin-left: 250px">تسجيل </button>
   </form>
 
   </section>
@@ -286,7 +288,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center" style="position: relative;top:-100px">
-          <h2 class="section-heading text-uppercase">Contact Us</h2>
+          <h2 class="section-heading text-uppercase">تواصل معنا</h2>
         
         </div>
       </div>
@@ -322,7 +324,7 @@
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" name="sendmessage">Send Message</button>
+                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" name="sendmessage">ارساال</button>
               </div>
             </div>
           </form>
@@ -396,7 +398,7 @@
 
                       <h5 class="card-title"><?php echo $r['name']; ?></h5>
                       <p class="card-text"><?php echo $r['Details']; ?></p>
-                      <a href="<?php echo "phpFunctions/car.php?id=".$r['id']." " ?>" class="btn btn-primary">Details </a>
+                      <a href="<?php echo "phpFunctions/car.php?id=".$r['id']." " ?>" class="btn btn-primary">تفاصيل </a>
                     </div>
                   </div>
          
@@ -449,7 +451,7 @@
 
                       <h5 class="card-title"><?php echo $u['name']; ?></h5>
                       <p class="card-text"><?php echo $u['Details']; ?></p>
-                      <a href="<?php echo "phpFunctions/car2.php?id=".$u['id']." " ?>" class="btn btn-primary">Details </a>
+                      <a href="<?php echo "phpFunctions/car2.php?id=".$u['id']." " ?>" class="btn btn-primary">تفاصيل </a>
                     </div>
                   </div>
          

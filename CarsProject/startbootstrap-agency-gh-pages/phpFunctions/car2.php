@@ -97,7 +97,7 @@
 <body>
 <div class="mother">
 	<div class="topdiv" >
-		<h1>Welcome in our website</h1>
+		<h1>قم باختيار سياره احلامك</h1>
 		<h2><?php echo viewCarDetails($id); ?></h2>
 		<hr>
 		<p>
@@ -110,14 +110,14 @@
 			
 		</div>
 		<ul>
-		<h2 style="position: relative;top:100px;left: 260px"><li>Car Name:</li></h2>
+		<h2 style="position: relative;top:100px;left: 260px"><li>اسم السياره</li></h2>
 		<h2 style="position: relative;top:110px;left: 330px"><?php echo viewCarDetails($id); ?></h2>
-		<h2 style="position: relative;top:140px;left: 260px"><li>Car Value:</li></h2>
+		<h2 style="position: relative;top:140px;left: 260px"><li>سعر السياره</li></h2>
 		<h2 style="position: relative;top:140px;left: 330px"><?php echo viewCarDetails2($id); ?></h2>
-		<h2 style="position: relative;top:170px;left: 260px"><li>User Email:</li></h2>
+		<h2 style="position: relative;top:170px;left: 260px"><li>تواصل مع مالك السياره عبر البريد الالكتروني</li></h2>
 		<?php foreach($res10 as $re){ ?>
 		<h2 style="position: relative;top:160px;left: 330px"><?php echo $re['email'] ?> </h2>
-		<h2 style="position: relative;top:180px;left: 260px"><li>User phone:</li></h2>
+		<h2 style="position: relative;top:180px;left: 260px"><li>تواصل مع مالك السياره عبر رقم الموبايل </li></h2>
 		<h2 style="position: relative;top:170px;left: 330px"><?php echo $re['phoneNumber'] ?>  </h2>
 	<?php } ?>
 		</ul>
